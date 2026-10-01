@@ -1,0 +1,12 @@
+{
+  "name": "trishtest-mcp-remote",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hosted Trish Test MCP endpoint (streamable HTTP) for ChatGPT apps and API clients. Emails are scored in memory and never stored.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "^3.24.0"
+  },
+  "engines": { "node": ">=20" }
+}
