@@ -1,38 +1,38 @@
 {
-    "name": "trishtest-mcp",
-    "version": "0.1.4",
-    "description": "The Trish Test as an MCP server - score any email for the structural fingerprints of automated sales sequences, entirely on-device. trishtest.com",
-    "type": "module",
-    "bin": {
-          "trishtest-mcp": "server.js"
-    },
-    "main": "lib/scorer.js",
-    "files": [
-          "server.js",
-          "lib/",
-          "README.md",
-          "SKILL.md"
-    ],
-    "scripts": {
-          "test": "node test/parity.test.js"
-    },
-    "keywords": [
-          "mcp",
-          "email",
-          "cold-email",
-          "sales",
-          "spam",
-          "trish-test",
-          "outreach",
-          "ai-agents"
-    ],
-    "author": "Alex Worth (trishtest.com)",
-    "license": "MIT",
-    "engines": {
-          "node": ">=18"
-    },
-    "dependencies": {
-          "@modelcontextprotocol/sdk": "^1.30.0",
-          "zod": "^4.5.4"
-    }
+  "name": "trishtest-mcp",
+  "version": "0.1.4",
+  "description": "The Trish Test as an MCP server - score any email for the structural fingerprints of automated sales sequences, entirely on-device. trishtest.com",
+  "type": "module",
+  "bin": {
+    "trishtest-mcp": "server.js"
+  },
+  "main": "lib/scorer.js",
+  "files": [
+    "server.js",
+    "lib/",
+    "README.md",
+    "SKILL.md"
+  ],
+  "scripts": {
+    "test": "node test/parity.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "email",
+    "cold-email",
+    "sales",
+    "spam",
+    "trish-test",
+    "outreach",
+    "ai-agents"
+  ],
+  "author": "Alex Worth (trishtest.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.5.4"
+  }
 }
